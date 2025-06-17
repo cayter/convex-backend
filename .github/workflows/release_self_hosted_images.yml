@@ -11,8 +11,8 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "crates/model/src/migrations.rs"
+    # paths:
+    #   - "crates/model/src/migrations.rs"
 
 jobs:
   release_backend:
